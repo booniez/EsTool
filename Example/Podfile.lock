@@ -1,5 +1,9 @@
 PODS:
-  - EsTool (0.1.0)
+  - EsTool (0.0.2):
+    - EsTool/Date (= 0.0.2)
+    - EsTool/String (= 0.0.2)
+  - EsTool/Date (0.0.2)
+  - EsTool/String (0.0.2)
   - Nimble (10.0.0)
   - Quick (5.0.1)
 
@@ -18,10 +22,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EsTool: f632bcf626d8b51504463c68a6a5e8f7c81c0857
+  EsTool: 786223ab7f608ae7a269315f2e630b7965c88ba1
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
 
-PODFILE CHECKSUM: d38e441ed4c6fab9392860ecd486b3bbcca8f32b
+PODFILE CHECKSUM: c38022577d0a1ae800a180d5949533205adf1b3b
 
 COCOAPODS: 1.15.2

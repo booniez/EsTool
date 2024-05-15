@@ -12,7 +12,8 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		79048FEF2BF367920070C507 /* String+ValidationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79048FEE2BF367920070C507 /* String+ValidationTest.swift */; };
+		791959262BF4B19400194369 /* String+ValidationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791959222BF4B19400194369 /* String+ValidationTest.swift */; };
+		791959272BF4B19400194369 /* Date+FormatterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791959242BF4B19400194369 /* Date+FormatterTest.swift */; };
 		8F5564ABB2B19960E1625E4A /* Pods_EsTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A40159D1C826549B9F9FBB /* Pods_EsTool_Tests.framework */; };
 		91C04193F621CC7FC7F37F3B /* Pods_EsTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952DF096C48EF2ED93F90A1D /* Pods_EsTool_Example.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		1A7E061E4A1912A2AD282EA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		32D41DA3A5019B69AEC5EA22 /* Pods-EsTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsTool_Example.release.xcconfig"; path = "Target Support Files/Pods-EsTool_Example/Pods-EsTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5259D3D11BD0BCDCB8483CBD /* EsTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EsTool.podspec; path = ../EsTool.podspec; sourceTree = "<group>"; };
+		5259D3D11BD0BCDCB8483CBD /* EsTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EsTool.podspec; path = ../EsTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* EsTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DFBC8E490BAC004C342FBC0 /* Pods-EsTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-EsTool_Tests/Pods-EsTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		76F00E3C867AD50619AA6CEA /* Pods-EsTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-EsTool_Example/Pods-EsTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		79048FEE2BF367920070C507 /* String+ValidationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ValidationTest.swift"; sourceTree = "<group>"; };
+		791959222BF4B19400194369 /* String+ValidationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ValidationTest.swift"; sourceTree = "<group>"; };
+		791959242BF4B19400194369 /* Date+FormatterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+FormatterTest.swift"; sourceTree = "<group>"; };
 		86AE4407832C89AC585D43D9 /* Pods-EsTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EsTool_Tests/Pods-EsTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		86E7FED951F94AAF528994BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		952DF096C48EF2ED93F90A1D /* Pods_EsTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACE91AFB9204008FA782 /* Supporting Files */,
-				79048FEE2BF367920070C507 /* String+ValidationTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -133,6 +134,8 @@
 		607FACE91AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				791959252BF4B19400194369 /* Date */,
+				791959232BF4B19400194369 /* String */,
 				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -146,6 +149,22 @@
 				1A7E061E4A1912A2AD282EA3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		791959232BF4B19400194369 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				791959222BF4B19400194369 /* String+ValidationTest.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		791959252BF4B19400194369 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				791959242BF4B19400194369 /* Date+FormatterTest.swift */,
+			);
+			path = Date;
 			sourceTree = "<group>";
 		};
 		E65FBFCD54F213BCEB8D2DDE /* Pods */ = {
@@ -213,10 +232,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6UYT7KDD5T;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6UYT7KDD5T;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -361,7 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79048FEF2BF367920070C507 /* String+ValidationTest.swift in Sources */,
+				791959262BF4B19400194369 /* String+ValidationTest.swift in Sources */,
+				791959272BF4B19400194369 /* Date+FormatterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +521,7 @@
 			baseConfigurationReference = 76F00E3C867AD50619AA6CEA /* Pods-EsTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UYT7KDD5T;
 				INFOPLIST_FILE = EsTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -514,6 +537,7 @@
 			baseConfigurationReference = 32D41DA3A5019B69AEC5EA22 /* Pods-EsTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6UYT7KDD5T;
 				INFOPLIST_FILE = EsTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -528,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86AE4407832C89AC585D43D9 /* Pods-EsTool_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6UYT7KDD5T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -550,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DFBC8E490BAC004C342FBC0 /* Pods-EsTool_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6UYT7KDD5T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

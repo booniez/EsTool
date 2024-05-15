@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EsTool'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'some swift extension'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,20 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'EsTool/Classes/**/*'
+  
+  s.subspec 'String' do |stringsub|
+    stringsub.source_files = 'EsTool/Classes/String/**/*'
+  end
+  
+  s.subspec 'Date' do |datasub|
+    datasub.source_files = 'EsTool/Classes/Date/**/*'
+  end
+  
+  # s.subspec 'Color' do |datasub|
+  #  datasub.source_files = 'EsTool/Classes/Color/**/*'
+  # end
+
+  
   
   # s.resource_bundles = {
   #   'EsTool' => ['EsTool/Assets/*.png']
