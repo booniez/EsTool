@@ -13,16 +13,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let str = " "
+        print(str.isBlank()) // 应该打印出 true
+        
+        print(str.isEmpty) // 应该打印出 false
+        
+        print(str.isEmpty()) // 应该打印出 false
+        
+        let strTrim = "  你好 "
+        // 去除首尾的空格
+        print(strTrim.trim()) // 应该打印出 你好
+        
+        
+        
+        
         let timeStamp = 1589904000.0 // 时间戳以秒为单位
         let date = Date(timeIntervalSince1970: timeStamp)
-
-        // 创建 DateFormatter 来格式化并打印日期
-//        let formatter = DateFormatter()
-//        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-//        formatter.timeZone = TimeZone(abbreviation: "Asia/Shanghai") // 确保使用 UTC 时区
-//        let dateString = formatter.string(from: date) // 转换 Date 对象为字符串
-
-        print(date.formatToString(.utcWithXxxOffsetPattern)) // 应该打印出 "2020-05-20 00:00:00"
+        /// UTC时间，带XXX时区偏移：yyyy-MM-dd'T'HH:mm:ssXXX
+        print(date.toString(.utcWithXxxOffsetPattern)) // 应该打印出 "2020-05-20T00:00:00+08:00"
+        /// 标准日期时间格式，精确到秒：yyyy-MM-dd HH:mm:ss
+        print(date.toString(.normDateTimePattern)) // 应该打印出 "2020-05-20 00:00:00"
         
         // Do any additional setup after loading the view, typically from a nib.
     }
